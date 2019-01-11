@@ -4,5 +4,8 @@
   "description": "express js weather app",
   "main": "index.js",
   "author": "cwhsu <cwhsu1984@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
