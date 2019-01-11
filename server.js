@@ -9,7 +9,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', { weather: null, error: null });
 });
 
 app.post('/', (req, res) => {
