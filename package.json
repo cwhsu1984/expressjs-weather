@@ -1,0 +1,8 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "express js weather app",
+  "main": "index.js",
+  "author": "cwhsu <cwhsu1984@gmail.com>",
+  "license": "MIT"
+}
